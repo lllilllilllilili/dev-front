@@ -1,2 +1,1 @@
-# vue-study
-vue-study-only
+# vue.js
