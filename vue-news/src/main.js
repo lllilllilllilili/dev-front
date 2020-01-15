@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import {router} from './router/index.js';
+import {router} from './routes/index.js';
 //./ 는 상대경로 다. 
 //{} 하면 경로가 나온다. 
 //router 에서 여기로 옮겨줘야 한다. 
