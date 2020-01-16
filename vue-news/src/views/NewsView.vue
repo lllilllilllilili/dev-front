@@ -5,7 +5,8 @@
 </template>
 
 <script>
-import axios from 'axios';
+
+import {fetchNewsList} from '../api/index.js';
 export default {
   data(){
     return {
@@ -14,8 +15,8 @@ export default {
   },
   created() {
     var vm = this;
-    axios.get('https://api.hnpwa.com/v0/news/1.json')
-      .then(function(response){
+    fetchNewsList()
+     .then(function(response){
         // eslint-disable-next-line no-console
         console.log(response);
         vm.users = response.data; //바인딩 
