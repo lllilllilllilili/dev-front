@@ -1,12 +1,26 @@
 <template>
   <div>
-      <h1>Ask</h1>
+    <div v-for ="user in users" v-bind:key="user">{{user.title}}</div>
   </div>
 </template>
 
 <script>
+import {fetchAskList} from '../api/index.js';
 export default {
-
+  data(){
+    return {
+      users : []
+    }
+  },
+  created(){
+    fetchAskList()
+    .then(response => 
+    // eslint-disable-next-line no-console
+    this.users = response.data)
+    .catch(error => 
+    // eslint-disable-next-line no-console
+    console.log(error));
+  },
 }
 </script>
 
