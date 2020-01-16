@@ -13,12 +13,12 @@ export default {
     }
   },
   created(){
+    var vm = this;
     fetchAskList()
-    .then(response => 
-    // eslint-disable-next-line no-console
-    this.users = response.data)
+    .then(response => this.users = response.data)
     .catch(error => 
     // eslint-disable-next-line no-console
+        
     console.log(error));
   },
 }

@@ -15,13 +15,13 @@ export default {
   },
   created() {
     var vm = this;
+    console.log('호출 전 : ', this); //vueComponent 
     fetchNewsList()
-     .then(function(response){
+     .then(response =>{
         // eslint-disable-next-line no-console
+        console.log('호출 후 : ',this); //undefined
         console.log(response);
         vm.users = response.data; //바인딩 
-        
-
       })
       .catch(function(error){
         // eslint-disable-next-line no-console
