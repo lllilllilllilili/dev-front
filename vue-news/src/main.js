@@ -9,7 +9,7 @@ import Vuex from 'vuex' //vuex library loading 할 수 있다.
 Vue.config.productionTip = false
 
 
-import {store} from './store/index.js'; //store file 도 import 해야 한다. 
+import {store} from '../src/store/index.js'; //store file 도 import 해야 한다. 
 // new Vuex.Store({
 //   //source folder 로 관리하는게 좋다. 
 // })

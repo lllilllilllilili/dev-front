@@ -20,11 +20,19 @@ function fetchJobsList(){
 function fetchAskList(){
     return axios.get(`${config.baseUrl}ask/1.json`);
 }
-
+function fetchUserInfo(username){
+    //코딩컨벤션
+    return axios.get(`${config.baseUrl}user/${username}.json`);
+}
 //fetchNewsList().then().catch()
+function fetchItemInfo(number){
+    return axios.get(`${config.baseUrl}item/${number}.json`);
+}
 export {
     fetchNewsList,
     fetchJobsList,
-    fetchAskList
+    fetchAskList,
+    fetchUserInfo,
+    fetchItemInfo
 }
 
