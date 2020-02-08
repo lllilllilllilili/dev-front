@@ -6,6 +6,7 @@
       <router-link to="/jobs">Jobs</router-link> |
       <router-link to="/item">item</router-link> |
       <router-link to="/user">user</router-link> |
+      <router-link to="/test">test</router-link>
       
   </div>
 </template>
