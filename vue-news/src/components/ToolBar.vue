@@ -7,7 +7,7 @@
       <router-link to="/item">item</router-link> |
       <router-link to="/user">user</router-link> |
       <router-link to="/test">test</router-link>
-      
+      <router-link to="/feedPage">feedPage</router-link>
   </div>
 </template>
 

@@ -17,7 +17,7 @@
 
         <infinite-loading spinner="bubbles" :identifier="infiniteId" @infinite="infiniteHandler">
                 <div slot="spinner">Loading...</div>
-<div slot="error" slot-scope="{ trigger }">
+        <div slot="error" slot-scope="{ trigger }">
     Error message, click <a href="javascript:;" @click="trigger">here</a> to retry
   </div>
         </infinite-loading>
