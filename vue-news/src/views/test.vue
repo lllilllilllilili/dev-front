@@ -39,6 +39,7 @@
         components: {
             InfiniteLoading
         },
+        
         data() {
             return {
                 page: 1, 
