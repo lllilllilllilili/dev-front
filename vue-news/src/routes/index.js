@@ -8,6 +8,8 @@ import UserView from '../views/UserView.vue';
 import JobsView from '../views/JobsView.vue'; //eslint 라서 error 뜨는건 무시한다. 
 import test from '../views/test.vue';
 import feedPage from '../views/feedPage.vue';
+import menubar from '../views/menu.vue';
+import hashtagSearch from '../views/hashtagSearch.vue';
 //eslint plug in 써주면 놓치고 있는 부분 인지 할 수 있다. 
 
 
@@ -50,6 +52,14 @@ export const router = new VueRouter({
         {
             path : '/feedPage',
             component : feedPage,
+        },
+        {
+            path : '/menubar',
+            component : menubar,
+        },
+        {
+            path : '/hashtagSearch',
+            component : hashtagSearch,
         }
     ]
   });

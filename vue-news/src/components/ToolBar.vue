@@ -6,8 +6,10 @@
       <router-link to="/jobs">Jobs</router-link> |
       <router-link to="/item">item</router-link> |
       <router-link to="/user">user</router-link> |
-      <router-link to="/test">test</router-link>
-      <router-link to="/feedPage">feedPage</router-link>
+      <router-link to="/test">test</router-link> | 
+      <router-link to="/feedPage">feedPage</router-link> |
+      <router-link to="/menubar">menubar</router-link> |
+      <router-link to="/hashtagSearch">hashtagSearch</router-link>
   </div>
 </template>
 

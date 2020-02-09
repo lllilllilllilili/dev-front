@@ -14,8 +14,8 @@
         <!-- <div v-if="((tweet.user_type === user_type) || (user_type === 'all'))"> -->
         <!-- eslint-disable vue/no-use-v-if-with-v-for,vue/no-confusing-v-for-v-if -->
         <tweets
-            v-for="(tweet, i) in tweet"
-            v-bind:key="i+tweet"
+            v-for="(tweet, $index) in tweet"
+            v-bind:key="$index+tweet"
             :tweet="tweet"
             v-if="((tweet.user_type === user_type) || (user_type === 'all'))"/>
         <!-- </div> -->
