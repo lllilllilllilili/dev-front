@@ -10,16 +10,21 @@ Vue.config.productionTip = false
 
 
 import {store} from '../src/store/index.js'; //store file 도 import 해야 한다. 
+//import vuetify from './plugins/vuetify';
+import vuetify from '@/plugins/vuetify' // path to vuetify export
 // new Vuex.Store({
 //   //source folder 로 관리하는게 좋다. 
 // })
 
 
 new Vue({
-
   render: h => h(App),
   //router : router, //router 연결, router는 객체로 불러와야 한다. or router 라고 쓸 수 있다.
   router,
-  store, //store : store 앞뒤가 같으면 하나로 쓸 수 있다. 
+
+  vuetify,
+
+  //store : store 앞뒤가 같으면 하나로 쓸 수 있다. 
+  store
 }).$mount('#app')
 //프로젝트 구조의 청사진

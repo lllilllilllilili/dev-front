@@ -10,6 +10,9 @@ import test from '../views/test.vue';
 import feedPage from '../views/feedPage.vue';
 import menubar from '../views/menu.vue';
 import hashtagSearch from '../views/hashtagSearch.vue';
+import stick from '../views/stickySidebar.vue';
+import title from '../views/title.vue';
+import sideMenu from '../views/sideMenu.vue';
 //eslint plug in 써주면 놓치고 있는 부분 인지 할 수 있다. 
 
 
@@ -60,6 +63,18 @@ export const router = new VueRouter({
         {
             path : '/hashtagSearch',
             component : hashtagSearch,
+        },
+        {
+            path : '/stick',
+            component : stick,
+        },
+        {
+            path : '/title',
+            component : title,   
+        },
+        {
+            path : '/side',
+            component : sideMenu,
         }
     ]
   });

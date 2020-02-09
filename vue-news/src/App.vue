@@ -12,16 +12,20 @@
 </template>
 
 <script>
-  /*eslint-disable*/
-  import ToolBar from './components/ToolBar.vue';
-
+ import ToolBar from './components/ToolBar.vue';
 export default {
-  components : {
+  name: 'App',
+
+  components: {
     ToolBar,
   },
-}
+
+  data: () => ({
+    //
+  }),
+};
 </script>
-  
+
 <style>
 /* 라우터 트랜지션 */
 .page-enter-active, .page-leave-active {

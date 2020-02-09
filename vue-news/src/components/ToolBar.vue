@@ -9,7 +9,10 @@
       <router-link to="/test">test</router-link> | 
       <router-link to="/feedPage">feedPage</router-link> |
       <router-link to="/menubar">menubar</router-link> |
-      <router-link to="/hashtagSearch">hashtagSearch</router-link>
+      <router-link to="/hashtagSearch">hashtagSearch</router-link> |
+      <router-link to="/sticky">sticky</router-link> | 
+      <router-link to="/title">title</router-link> | <br>
+      <router-link to="/side">side</router-link>
   </div>
 </template>
 
@@ -24,8 +27,9 @@ export default {
 .header{
     color: white;
     background-color: #42b883;
-    display: flex;
+    /* display: flex; */
     padding: 8px;
+    width : 100%;
 }
 
 .header .router-link-exact-active{
