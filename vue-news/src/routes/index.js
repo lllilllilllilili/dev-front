@@ -13,8 +13,11 @@ import hashtagSearch from '../views/hashtagSearch.vue';
 import stick from '../views/stickySidebar.vue';
 import title from '../views/title.vue';
 import sideMenu from '../views/sideMenu.vue';
+import gridSystem from '../views/gridSystem.vue';
+import userRankList from '../views/userRankList.vue';
+import userRank from '../views/userRanking.vue'
 //eslint plug in 써주면 놓치고 있는 부분 인지 할 수 있다. 
-
+import userRankListDetail from '../views/userRankListDetail.vue';
 
 Vue.use(VueRouter);
 
@@ -75,7 +78,24 @@ export const router = new VueRouter({
         {
             path : '/side',
             component : sideMenu,
+        },
+        {
+            path : '/grid',
+            component : gridSystem,
+        },
+        {
+            path : '/userRankList',
+            component : userRankList,
+        },
+        {
+            path : '/userRanking',
+            component : userRank,
+        },
+        {
+            path : '/userRankListDetail',
+            component : userRankListDetail,
         }
+
     ]
   });
   

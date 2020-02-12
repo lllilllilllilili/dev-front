@@ -5,6 +5,8 @@
             placeholder="hashtag 를 선택해주세요..."
             :multiple="true"
             :options="options"/>
+
+        
     </div>
 </template>
 
@@ -14,6 +16,12 @@
     export default {
         components: {
             Treeselect
+        },
+        watch : {
+            value : function(v){
+                /*eslint-disable*/
+                console.log(v);
+            }
         },
         data() {
             return {

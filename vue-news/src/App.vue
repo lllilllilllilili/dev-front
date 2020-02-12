@@ -34,4 +34,15 @@ export default {
 .page-enter, .page-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
 }
+#app {
+  width : 100%;
+}
+body {
+    /* padding: 3%; */
+    background-color: #ccc;
+    font-size: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+}
 </style>
