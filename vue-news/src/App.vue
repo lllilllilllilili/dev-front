@@ -12,16 +12,20 @@
 </template>
 
 <script>
-  /*eslint-disable*/
-  import ToolBar from './components/ToolBar.vue';
-
+ import ToolBar from './components/ToolBar.vue';
 export default {
-  components : {
+  name: 'App',
+
+  components: {
     ToolBar,
   },
-}
+
+  data: () => ({
+    //
+  }),
+};
 </script>
-  
+
 <style>
 /* 라우터 트랜지션 */
 .page-enter-active, .page-leave-active {
@@ -29,5 +33,16 @@ export default {
 }
 .page-enter, .page-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
+}
+#app {
+  width : 100%;
+}
+body {
+    /* padding: 3%; */
+    background-color: #ccc;
+    font-size: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
 }
 </style>

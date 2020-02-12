@@ -10,6 +10,7 @@
                 append-icon="mdi-magnify"
                 label="Search"
                 @click = "UserInfo"
+                
                 single-line="single-line"
                 hide-details="hide-details"></v-text-field>
         </v-card-title>
