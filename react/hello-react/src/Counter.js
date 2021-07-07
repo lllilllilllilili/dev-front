@@ -6,7 +6,14 @@ const Counter = () => {
   return (
     <div>
       <h1>{count}</h1>
-      <button onClick={() => setCount(count + 1)}>+1</button>
+      <button
+        onClick={() => {
+          if (count >= 10) alert("더 이상 증가시킬 수 없습니다.");
+          else setCount(count + 1);
+        }}
+      >
+        +1
+      </button>
     </div>
   );
 };
