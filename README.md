@@ -86,7 +86,8 @@ export default ErrorMsg;
   git checkout -b feature_mission횟수_이름
   ```
 
-- git push 후 pull request, `self-review` 로 코드 확인
+- git push 후 PR, `self-review` 로 코드 확인
+- mission 횟수 넘어가면 PR closed
 
 ## React Category
 
