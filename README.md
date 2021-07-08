@@ -15,7 +15,6 @@
 ## Convention
 
 - camelCase
-
   - food_bar ⇢ foodBar
 
 - [React hook](https://github.com/ecomfe/react-hooks)
