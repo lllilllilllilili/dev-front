@@ -19,6 +19,13 @@
 - [React code style](https://github.com/octopus-investments/code-conventions/blob/master/react.md)
 
 - [Commitizen](https://github.com/ngryman/cz-emoji)
+```
+❯ feature   🌟  A new feature
+  fix       🐞  A bug fix
+  docs      📚  Documentation change
+  refactor  🎨  A code refactoring change
+  chore     🔩  A chore change
+```
 
 
 
