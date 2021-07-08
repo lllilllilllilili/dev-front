@@ -17,6 +17,7 @@
 ## Convention
 
 - CamelCase
+  - food_bar ⇢ foodBar
 - [React hook](https://github.com/ecomfe/react-hooks)
 - [React code style](https://github.com/octopus-investments/code-conventions/blob/master/react.md)
 
@@ -49,3 +50,9 @@
 
 - git push 후 pull request, `self-review` 로 코드 확인
 
+
+
+## React Category
+
+- useState(#75, #78)
+- EventHandler(#76, #77)
