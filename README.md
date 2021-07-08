@@ -15,8 +15,42 @@
 ## Convention
 
 - CamelCase
+
+  - food_bar ⇢ foodBar
+
 - [React hook](https://github.com/ecomfe/react-hooks)
-- [React code style](https://github.com/octopus-investments/code-conventions/blob/master/react.md)
+```
+import React from "react";
+import PropTypes from "prop-types";
+ 
+ 
+const ErrorMsg = (props) => {
+    return (
+        <div className="mt-0-5rem fz-smler">
+            <img
+                className="error-stop"
+                src="/static/img/global/stop.svg"
+                alt="stop icon"
+            />
+            {props.text}
+        </div>
+    );
+}
+ 
+ 
+ErrorMsg.propTypes = {
+    text: PropTypes.string,
+    loginAttempts: PropTypes.number
+};
+ 
+ErrorMsg.defaultProps = {
+    text: "",
+    loginAttempts: 0
+};
+ 
+export default ErrorMsg;
+```
+- [React code style](https://github.com/jrskerritt/react-style-guide)
 
 - [Commitizen](https://github.com/ngryman/cz-emoji)
 ```
