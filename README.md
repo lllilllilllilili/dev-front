@@ -126,4 +126,7 @@ THE SOFTWARE.
 ## React Category
 
 - useState(#75, #78)
-- EventHandler(#76, #77)
+- eventHandler(#76, #77)
+- ref(#80)
+- map, concat, filter(#81)
+- lifecycle(#82)
