@@ -14,7 +14,7 @@
 
 ## Convention
 
-- CamelCase
+- camelCase
 
   - food_bar ⇢ foodBar
 
