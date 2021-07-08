@@ -1,9 +1,7 @@
 # Front-lap
 
 ![license](https://img.shields.io/badge/license-MIT%20License-blue.svg) 
-
 ![vue](https://img.shields.io/badge/vue-3.0.0-blue?logo=Vue.js)
-
 ![vue](https://img.shields.io/badge/react-17.0.2-blue?logo=react)
 
 
