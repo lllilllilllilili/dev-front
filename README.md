@@ -14,15 +14,9 @@
 
 ## Convention
 
-<<<<<<< HEAD
-- CamelCase
-  - food_bar ⇢ foodBar
-=======
 - camelCase
-
   - food_bar ⇢ foodBar
 
->>>>>>> 471d2b555eda6194db17b4d9f7976e9e0d06fd25
 - [React hook](https://github.com/ecomfe/react-hooks)
 ```
 import React from "react";
