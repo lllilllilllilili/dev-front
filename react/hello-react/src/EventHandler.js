@@ -10,7 +10,7 @@ export const EventHandler = () => {
   const onChange = (event) => {
     const nextForm = {
       ...form,
-      [event.target.name]: event.target.value,
+      [event.name]: event.value,
     };
     setForm(nextForm);
   };
@@ -27,8 +27,13 @@ export const EventHandler = () => {
       <input
         type="text"
         name="username"
+        id="user"
         value={username}
-        onChange={onChange}
+        onChange={() => {
+          console.log("here");
+          if (username.length > 15) alert("글자 길이를 줄여주세요.");
+          else onChange(document.getElementById("user"));
+        }}
         placeholder="유저명"
       />
       <input
