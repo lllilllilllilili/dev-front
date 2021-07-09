@@ -5,7 +5,13 @@ function Counter() {
     return (
       <div>
         <p> { number }</p>
-        <button onClick={() => setNumber(number + 1)}>+1 버튼</button>
+        <button onClick={() => {
+            if(number < 10){
+                setNumber(number + 1)
+            } else {
+                alert("더 이상 올릴 수 없습니다.")
+            }
+        }}>+1 버튼</button>
       </div>
     );
 }
