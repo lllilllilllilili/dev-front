@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { EventHandler } from "./EventHandler";
 
 function App() {
   return (
-    <Fragment>
-      <EventHandler />
-    </Fragment>
+    <div>
+      <EventHandler className="app" />
+    </div>
   );
 }
 
