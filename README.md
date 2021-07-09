@@ -93,7 +93,7 @@ export default ErrorMsg;
 
 ## FE Wiki
 
-- ![FE-wiki](https://github.com/lllilllilllilili/dev-front/wiki)
+- [FE-wiki](https://github.com/lllilllilllilili/dev-front/wiki) 
 
 
 
