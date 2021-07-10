@@ -14,9 +14,7 @@
 
 ## Convention
 
-- camelCase
-  - food_bar ⇢ foodBar
-
+- [`Following by Airbnb Javascript Sytle Guide`](https://airbnb.io/javascript/react/)
 - [React hook](https://github.com/ecomfe/react-hooks)
 ```
 import React from "react";
@@ -49,8 +47,6 @@ ErrorMsg.defaultProps = {
  
 export default ErrorMsg;
 ```
-- [React code style](https://github.com/jrskerritt/react-style-guide)
-
 - [Commitizen](https://github.com/ngryman/cz-emoji)
 ```
 ❯ feature   🌟  A new feature
