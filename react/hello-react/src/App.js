@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
+  const array = [1, 2, 4, 8];
+  const arrayItems = array.map((number) => <ul>{number}</ul>);
+  onkeypress = (event) => {
+    console.log("event");
+  };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <input></input>
+      <button onClick={onkeypress}>추가</button>
+      {arrayItems}
     </div>
   );
 }
