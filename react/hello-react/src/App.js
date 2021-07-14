@@ -17,14 +17,12 @@ function App() {
     </li>
   ));
   const onRemove = (idx) => {
-    console.log(idx);
     setNumber(number.filter((number) => number.id !== idx));
   };
   const onChange = (e) => {
     setValue(inputValue.current.value);
   };
   const onClick = (event) => {
-    //const newArrayItem = [...number, inputValue.current.value];
     setId(nextId + 1);
     setValue(inputValue.current.value);
 
@@ -33,6 +31,7 @@ function App() {
     arrayItems = number.map((number) => (
       <li key={number.toString()}>{number}</li>
     ));
+    inputValue.current.value = "";
   };
   return (
     <div className="App">
