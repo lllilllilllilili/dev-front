@@ -8,7 +8,8 @@ function App() {
     <li key={number.toString()}>{number}</li>
   ));
   const onClick = (event) => {
-    const newArrayItem = [...number, inputValue.current.value];
+    //const newArrayItem = [...number, inputValue.current.value];
+    const newArrayItem = number.concat(inputValue.current.value);
     console.log(newArrayItem);
     setNumber(newArrayItem);
     arrayItems = number.map((number) => (
