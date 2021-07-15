@@ -3,7 +3,7 @@ import React, {  useState } from 'react';
 function Counter() {
   const [count, setCount] = useState(0);
 
-  const handleCountChange = (value) => {
+  function handleCountChange(value) {
     const countValueChangeTo = count + value;
     
     if(countValueChangeTo >= 10) {
